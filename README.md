@@ -50,6 +50,48 @@ encoded = tokenizer.encode("Привет, мир! 😊 <|think|>")
 print(encoded.tokens)
 print(encoded.ids)
 ```
+### Special Token IDs
+
+For direct integration, masking, or `logit_bias` manipulation, here are the exact IDs of the special tokens. 
+*(Note: Tokens with IDs 0–27 are strictly reserved. Do not remap them.)*
+
+**Roles:**
+* `<|endoftext|>` — ID 0
+* `<|pad|>` — ID 1
+* `<|user|>` — ID 2
+* `<|assistant|>` — ID 3
+* `<|system|>` — ID 4
+* `<|bos|>` — ID 5
+* `<|eos|>` — ID 6
+
+**Reasoning:**
+* `<|think|>` — ID 7
+* `<|/think|>` — ID 8
+* `<|verify|>` — ID 9
+* `<|step_think_1|>` — ID 14
+* `<|step_think_2|>` — ID 15
+* `<|step_think_3|>` — ID 16
+* `<|step_think_4|>` — ID 17
+* `<|step_think_5|>` — ID 18
+* `<|step_think_6|>` — ID 19
+* `<|step_think_7|>` — ID 20
+* `<|step_think_8|>` — ID 21
+* `<|step_think_9|>` — ID 22
+
+**Tools:**
+* `<|tool_call|>` — ID 10
+* `<|tool_result|>` — ID 11
+* `<|context|>` — ID 12
+* `<|/context|>` — ID 13
+
+**Safety:**
+* `<|safe|>` — ID 23
+* `<|harmful|>` — ID 24
+
+**Agents:**
+* `<|agent_id|>` — ID 26
+* `<|/agent_id|>` — ID 27
+
 ## 📜 License
 
 This tokenizer is released under the **CC BY-NC 4.0** license. 
