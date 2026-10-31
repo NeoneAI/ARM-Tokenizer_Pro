@@ -1,21 +1,3 @@
----
-language:
-- ru
-- en
-tags:
-- tokenizer
-- bpe
-- russian
-- english
-- code
-- reasoning
-- safety
-- agent
-library_name: tokenizers
-license: cc-by-nc-4.0
----
-![ARM-Tokenizer Pro](tokenizer.jpg)
-
 # ARM-Tokenizer Pro (85k)
 
 **Compact. Precise. Powerful.**
