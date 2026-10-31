@@ -59,4 +59,6 @@ You are free to use it for research, personal projects, and non-commercial appli
 ---
 **If you're using Pro in a commercial product — write to us. We don't bite 🤗 — but we don't give away licenses for free either.**
 ---
+**Hugging Face repository: https://huggingface.co/andrey-neoneai/ARM-Tokenizer_Pro**
+---
 *Copyright (c) 2026 NeoneAI. All rights reserved.*
